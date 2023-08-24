@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@@_bhp=oo1^*h%9epsv8%wzct%_h@52143^geljqblk4eabk%7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-aramirezali-djangoplant-7sccmak80al.ws-us104.gitpod.io',]
+ALLOWED_HOSTS = ['8000-aramirezali-djangoplant-ukc0iyr1d3d.ws-us104.gitpod.io',]
 
 
 # Application definition
@@ -117,9 +117,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATICFILES_DIR = [
+STATICFILES_DIRS = [
     BASE_DIR / "static",
-    "/var/www/static",
+    "/var/www/static/",
 ]
 
 # Default primary key field type
